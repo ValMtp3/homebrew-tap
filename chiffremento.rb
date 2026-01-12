@@ -4,10 +4,11 @@ class Chiffremento < Formula
   version "1.0.0"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.0.0/chiffremento-darwin-arm64.apple.silicon"
+    url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.0.0/chiffremento-darwin-arm64"
     sha256 "3d80278d618f227da251d233b77bc275e9dffa896b7d1f7e739176b03fbad0c3"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.0.0/chiffremento-darwin-amd64.intel"
+    url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.0.0/chiffremento-darwin-amd64
+"
     sha256 "b58470b963f3e38ae1e1be5d5430490ecd498ed13e1c0d0a17e3776398e3ef4a"
   elsif OS.linux?
     url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.0.0/chiffremento-linux-amd64"
