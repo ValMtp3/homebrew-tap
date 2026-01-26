@@ -11,7 +11,7 @@ class Chiffremento < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.1.0/chiffremento_1.1.0_darwin_amd64.tar.gz"
-      sha256 "53cbf795e994927081a4b5676761158dc69eff0abebe5cf9df5d9c5bd3ade023"
+      sha256 "c57860e2f98a02a8b7c8b26757429d25afd5c7463e72c6943fb4775e1058d4cb"
 
       def install
         bin.install "chiffremento"
@@ -19,7 +19,7 @@ class Chiffremento < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.1.0/chiffremento_1.1.0_darwin_arm64.tar.gz"
-      sha256 "567dd4b26240697a08110849aca1de85474d13b204a6d397a5787235cbaed4c5"
+      sha256 "78914b260671719591b16b41ac5541071c7beb5a9b3f1068daaf8b945d07384e"
 
       def install
         bin.install "chiffremento"
@@ -30,14 +30,14 @@ class Chiffremento < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.1.0/chiffremento_1.1.0_linux_amd64.tar.gz"
-      sha256 "b3f2ccb53aaa2bb7e17b04f4e5fbf0ebbd6fbed004fb402927ce76ed8e11a06f"
+      sha256 "42f23929d992b86a3e97f16630f83e8aef46eb8c4ff23de932a527c065133ffd"
       def install
         bin.install "chiffremento"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.1.0/chiffremento_1.1.0_linux_arm64.tar.gz"
-      sha256 "21901af2239e93b5bdf89aa899112e86a54506c1dc2451ef80a55ac3eb3e0861"
+      sha256 "3e7c3f9ff14baeead922f856de82761fcf3e1659cf6658613e12905c6b4d979d"
       def install
         bin.install "chiffremento"
       end
