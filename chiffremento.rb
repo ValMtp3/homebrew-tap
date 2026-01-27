@@ -1,17 +1,17 @@
 class Chiffremento < Formula
   desc "File encryption and decryption cli tool in go (AES/ChaCha20)"
   homepage "https://github.com/ValMtp3/chiffremento-go-cli"
-  version "1.0.0"
+  version "1.1.0"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.0.0/chiffremento-darwin-arm64"
-    sha256 "3d80278d618f227da251d233b77bc275e9dffa896b7d1f7e739176b03fbad0c3"
+    url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.1.0/chiffremento-darwin-arm64"
+    sha256 "78914b260671719591b16b41ac5541071c7beb5a9b3f1068daaf8b945d07384e"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.0.0/chiffremento-darwin-amd64"
-    sha256 "b58470b963f3e38ae1e1be5d5430490ecd498ed13e1c0d0a17e3776398e3ef4a"
+    url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.1.0/chiffremento-darwin-amd64"
+    sha256 "c57860e2f98a02a8b7c8b26757429d25afd5c7463e72c6943fb4775e1058d4cb"
   elsif OS.linux?
-    url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.0.0/chiffremento-linux-amd64"
-    sha256 "f884952681fb9fbe8c8deb1a45fe05f6ea62c6c90889478d1a96acccdf56d771"
+    url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v1.1.0/chiffremento-linux-amd64"
+    sha256 "3e7c3f9ff14baeead922f856de82761fcf3e1659cf6658613e12905c6b4d979d"
   end
 
   def install
