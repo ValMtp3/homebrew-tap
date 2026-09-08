@@ -4,21 +4,21 @@ cask "chiffremento" do
 
   on_macos do
     on_arm do
-      sha256 "d4fdbcfe5d5958bbdfd458598e6d13b8c01964b70ef50a97a747d5d9d8adbff9"
+      sha256 "ce17dad48ca87dc5835527b3af14a32037c65c3eb903ba49481c5646aa22ebe7"
       url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v#{version}/chiffremento_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "cf618339f3763cf29b67c45d3a5a2d22b435bdb4a8457aaa79664abb8ea7b0b7"
+      sha256 "53d064d48e11b6f6dbe574daf4c474de2e6f36fb75181dcb94a0ac72b2ca5658"
       url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v#{version}/chiffremento_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "350ee00ac164e17f04500bbb7afd63917a1aba400b20ef414e55d0f1b106b182"
+      sha256 "8ce00e0a8ec05607c6684fe7e66abdbfe6371c6a5c52c37fc2cdfc6c0dcb6812"
       url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v#{version}/chiffremento_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f6e9f9badd3bc7ac03b12369287224206bf35be8a29eb3a934735f8f8dec1624"
+      sha256 "0f522f4be3f21c16b3dbef58afc4361b3eec5d0dd175cef0c859f5db7f1cfa0d"
       url "https://github.com/ValMtp3/chiffremento-go-cli/releases/download/v#{version}/chiffremento_#{version}_linux_amd64.tar.gz"
     end
   end
